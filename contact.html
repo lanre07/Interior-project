@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact | ADÉmaison interior design</title>
+     <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+
+    <header>
+
+<div class="header-logo">
+    
+    <a href="index.html"><img src="images/logo-interior.png" alt=">ADÉmaison logo" width="100px"></a>
+</div>
+
+<nav  >
+    <ul class="header-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="service.html">Service</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="hire.html">Why hire use </a></li>
+    <li> <a href="testimonial.html">Testimonial</a></li>
+    <li>  <a href="blog.html">Blog</a>   </li>
+    <a href="contact.html"> <button class=" mobile-booking_btn">
+        Book a session
+    </button></a>
+    
+    </ul>
+   
+</nav>
+
+
+<div class="contact">
+    <a href="contact.html"> <i class="fa-solid fa-phone"></i>+234 707 530 0493</a>
+   
+      </div>
+   
+       
+  <a href="contact.html">  <button class="booking_btn">
+        Book a session
+    </button></a>
+    <button class="hamburger" onclick="showNav()">
+    ☰
+</button>
+  
+
+    </header>
+
+    <section class="contact-page"> 
+        <h2>Contact Us</h2>
+        <p>Ready to transform your space? Get in touch to schedule a consultation.</p>
+    </section>
+
+  <!-- Main Content Area -->
+  <main class="container">
+
+    <div class="contact-grid">
+      
+      <!-- Left Column: Info Cards -->
+      <aside class="contact-info">
+        <div class="info-list">
+             <h3>Get in touch</h3>
+          
+          <div class="info-item">
+            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+234 707 530 0493</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="icon-box"><i class="fa-regular fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>contact@ademaisoninteriors.com</p>
+              <p>adeleyetola@yahoo.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+           
+            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Port Harcourt, Rivers State, Nigeria</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="icon-box"><i class="fa-regular fa-clock"></i></div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Monday - Friday: 9am - 6pm</p>
+              <p>Saturday: 10am - 4pm</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- WhatsApp Card -->
+        <div class="whatsapp-card">
+          <h3>WhatsApp</h3>
+          <p>Prefer to chat on WhatsApp? Reach us directly for quick responses.</p>
+
+        <button class="btn-whatsapp">
+         <a href="https://wa.me/2347075300493?text=Hello!%20I%20would%20like%20to%20book%20a%20session." 
+   target="_blank"   rel="noopener noreferrer">Chat on WhatsApp</a>
+           </button>
+        
+        </div>
+      </aside>
+
+      <!-- Right Column: Booking Form -->
+      <section class="booking-form-card" id="book">
+        <h2>Book a Session</h2>
+        <p class="subtitle">Fill out the form below and we'll get back to you within 24-48 hours.</p>
+
+        <form action="#" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullname">Full Name <span class="required">*</span></label>
+              <input type="text" id="fullname" name="fullname" placeholder="Your full name" required />
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+234 XXX XXX XXXX" required />
+            </div>
+            
+             <div class="form-group">
+              <label for="service">Service Interest <span class="required">*</span></label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="residential">Residential interior Design</option>
+                <option value="commercial">Commercial interior Design</option>
+                <option value="commercial">space planning</option>
+                <option value="consultation"> color consultation</option>
+                <option value="commercial">funiture & decor selection</option>
+                <option value="commercial">project management</option>
+                <option value="commercial">full home renovation </option>
+                <option value="commercial">others</option>
+              </select>
+            </div>
+            </div>
+             <div class="form-group">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message"  placeholder="Tell us about your project..." required></textarea>
+          </div>
+         
+          
+
+          <button type="submit" class="btn-submit">
+            Send Message <i class="fa-regular fa-paper-plane"></i>
+          </button>
+            
+            </form>
+
+            </section>
+            </div>
+          
+          </div>
+
+         
+        </form>
+      </section>
+
+    </div>
+  </main>
+
+  
+  <section class="location-container">
+    <div> <i class="fa-solid fa-location-dot"></i></div>
+    <p>Port Harcourt, Rivers State, Nigeria</p>
+   
+  </section>
+  <!-- Scroll to top button -->
+  <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  
+       <footer>
+
+        <div class="footer-class">
+
+        <div class="img-container">
+
+       <img src="images/logo-interior.png" alt=">ADÉmaison logo" width="100px"></img>
+       <P>Transforming spaces into stunning sanctuaries. 
+        Premium interior design services tailored to your unique vision.</P>
+       </div>
+    
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li>  <a href="about.html">About</a></li>
+                <li> <a href="service.html">Service</a></li>
+                <li> <a href="portfolio.html">portfolio</a></li>
+                <li> <a href="blog.html">blog</a></li>
+            </ul>
+            </div>
+
+             <div>
+                 <h4>Our service</h4>
+            <ul>
+                  <li><a href="service.html">resident design</a></li>  
+                  <li><a href="service.html">commercial design</a></li>
+                  <li> <a href="service.html">space planning</a></li>
+                <li> <a href="service.html">color consultation</a></li>
+
+            </ul>
+
+        </div>
+        
+
+        <div class="footer-contact">
+             <h4>Contact us</h4>
+            <ul>
+              <li> 
+                    
+                    <i class="fa-solid fa-phone"></i> +234 707 530 0493
+                </a> 
+            </li>
+             <li> <i class="fa-solid fa-envelope"></i>contact@ademaisoninteriors.com</i></a></li>
+            
+            <li><i class="fa-solid fa-location-dot"></i>River State, Nigeria</li> 
+            </ul>
+        </div>
+        </div>
+        
+        
+        <div class="reserved-container">
+          <div>© 2026 ADÉmaison Interior Design. All rights reserved.</div>  
+          <div class="dev"><a href="https://github.com/repos" target="_blank">Built by Ola links</a></div>
+        </div>
+
+        
+       </footer>    
+
+
+<script src="script.js"></script>   
+</body>
+</html>
+           
+               
+
+
+
+
+
+
+

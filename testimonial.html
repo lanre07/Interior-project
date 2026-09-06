@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>testimonial | ADÉmaison Interiors</title>
+     <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
+<body>
+
+   <header>
+
+<div class="header-logo">
+    
+   <a href="index.html"> <img src="images/logo-interior.png" alt=">ADÉmaison logo" width="100px"></a>
+</div>
+
+<nav>
+    <ul class="header-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="service.html">Service</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="hire.html">Why hire use </a></li>
+    <li> <a href="testimonial.html">Testimonial</a></li>
+    <li>  <a href="blog.html">Blog</a>   </li>
+     <a href="contact.html"><button class=" mobile-booking_btn">
+        Book a session
+    </button></a>
+    
+    </ul>
+   
+</nav>
+
+
+<div class="contact">
+    <a href="contact.html"> <i class="fa-solid fa-phone"></i>+234 707 530 0493</a>
+   
+      </div>
+   
+  <a href="contact.html">  <button class="booking_btn">
+        Book a session
+    </button></a>
+    <button class="hamburger" onclick="showNav()">
+    ☰
+</button>
+  
+
+    </header>
+     
+<main>
+      <section class="testimonial">
+
+            <h2>              
+                Client Testimonials
+           </h2>
+
+            <p>
+             Hear what our valued clients have to say about their experience with ADÉmaison.
+
+            </p>
+
+
+    </section>
+
+    <section class="client-rating">
+        
+        <div class="rating">
+            
+            <div>
+             <div class="rating-text">5.0</div>
+
+        <div >
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+
+    </div>
+         <p>overall rating</p>
+
+            </div>
+         
+        <div>
+
+    <div class="rating-text">2</div>
+    <P>reviews</P>
+</div>
+</div>
+    </section>
+
+    <section class="review-section">
+
+    <div class="review-container" >
+
+     <div>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+
+    </div>
+    <p>
+         "Working with ademaison was a lovely experience. They transformed my very basic looking 
+         living space into something spectacular, Their professionalism is top tier and they are 
+         fantastic at what they do. I would definitely recommend ademaison if you are looking to 
+         transform your space from ordinary to extraordinary."
+    </p>
+    <div class="review-title">
+        <span class="review-profile">H</span>
+        <div>
+            <h4>Hephzibah Philemon</h4>
+        <p>Doha, Qatar</p>
+        </div>
+        
+    </div>
+   
+
+        </div>
+
+        
+    <div class="review-container" >
+
+     <div>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+
+    </div>
+    <p>
+        "Ademaison Interiors really have a magic touch. I gave them a chance, and honestly, 
+        they turned my house into something alive. Just a little tweak in my place here in Qatar,
+         and suddenly it was a total wow."
+    </p>
+    <div class="review-title">
+        <div class="review-profile">I</div>
+        <div>
+         <h4>Idayat Joy Philemon</h4>
+        <p>DOHA QATAR</p>
+        </div>
+       
+    </div>
+   
+
+        </div>
+    </section>
+    
+    <section class="review">
+
+        <div><i class="fa-solid fa-quote-right"></i></div>
+            <div >
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+
+    </div>
+
+        <div>
+      <div class="review-update">"Working with ademaison was a lovely experience. They transformed my very basic looking 
+        living space into something spectacular, Their professionalism is top tier and they are 
+         at what they do. I would definitely recommend ademaison if you are looking to transform your 
+         space from ordinary to extraordinary."
+        </div>
+   <p>Hephzibah Philemon</p> 
+   <p> Doha, Qatar</p>
+   </div>
+   
+
+
+    </section>
+
+    <form id ="testimonial-form">
+        <div class="form-heading">
+             <h2>Share Your Experience</h2>
+        <p>Have you worked with ADÉmaison? We would love to hear about your experience.</p>
+
+
+        </div>
+       
+       <div class="form-section">
+         
+            <div>
+                 <label for="Name" id="name-text">Your Name :</label>
+        <input type="text" id="name" placeholder="Enter Your Full Name" required>
+            
+            </div>
+        <div>
+            <label for="Location" id="location-text"> Title or Location:</label>
+        <input type="text" id="location" placeholder="e.g,Homeowner, port Harcourt"required>
+
+        </div> 
+
+         
+        <div class="form-rating">
+            <label for="Your rating" id="rating-star"> Your rating</label>
+              <div >
+        <i class="fa-regular fa-star" data-rating="1"></i>
+        <i class="fa-regular fa-star" data-rating="2"></i>
+        <i class="fa-regular fa-star" data-rating="3"></i>
+        <i class="fa-regular fa-star" data-rating="4"></i>
+        <i class="fa-regular fa-star" data-rating="5"></i>
+        </div>
+
+        </div>
+        <label for="Your review"id="review-space">Your review </label>
+
+         <textarea class="testimonial-textarea" 
+        placeholder="Share Your Experience Working with  ADÉmaison"required></textarea>
+        <button class="form-button">Submit Review</button>
+
+       
+       </div>
+       
+    </form>
+           <!-- Scroll to top button -->
+  <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+    
+         <section class="happy-client">
+
+            <div class="client-space">
+             <h2>Join Our Happy Clients?</h2>
+       <p></p>Experience the ADÉmaison difference.
+        Let us create a space that you'll love for years to come.</p>
+         <a href="contact.html"> <button class="btn-consultation">Start Your Project <i class="fa-solid fa-arrow-right"></i></button></a>
+
+        </div>
+       </section>
+      <footer>
+
+        <div class="footer-class">
+
+        <div class="img-container">
+
+       <img src="images/logo-interior.png" alt=" >ADÉmaison logo" width="100px"></img>
+       <P>Transforming spaces into stunning sanctuaries. 
+        Premium interior design services tailored to your unique vision.</P>
+       </div>
+    
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li>  <a href="about.html">About</a></li>
+                <li> <a href="service.html">Service</a></li>
+                <li> <a href="portfolio.html">portfolio</a></li>
+                <li> <a href="blog.html">blog</a></li>
+            </ul>
+            </div>
+
+             <div>
+                 <h4>Our service</h4>
+            <ul>
+                  <li><a href="service.html">resident design</a></li>  
+                  <li><a href="service.html">commercial design</a></li>
+                  <li> <a href="service.html">space planning</a></li>
+                <li> <a href="service.html">color consultation</a></li>
+
+            </ul>
+
+        </div>
+        
+
+        <div class="footer-contact">
+             <h4>Contact us</h4>
+            <ul>
+              <li> 
+                    
+                    <i class="fa-solid fa-phone"></i> +234 707 530 0493
+                </a> 
+            </li>
+             <li> <i class="fa-solid fa-envelope"></i>contact@ademaisoninteriors.com</i></a></li>
+            
+            <li><i class="fa-solid fa-location-dot"></i>River State, Nigeria</li> 
+            </ul>
+        </div>
+        </div>
+        
+        
+        <div class="reserved-container">
+          <div>© 2026 ADÉmaison Interior Design. All rights reserved.</div>  
+         <div class="dev"><a href="https://github.com/repos" target="_blank">Built by Ola links</a></div>
+        </div>
+
+        
+       </footer>    
+
+    
+       
+
+    </main>
+      <script src="script.js"></script>
+    </body>
+    </html>
+
+    
+  
